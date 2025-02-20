@@ -17,7 +17,7 @@
         @livewireStyles
     </head>
     <body class="antialiased">
-        @livewire('test-properties')
+        @livewire('test-actions')
         {{--  when want pass parameters  --}}
         {{-- @livewire('test-properties', ['name' => 'Omar']) --}}
         {{-- ============================================================== --}}
