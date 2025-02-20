@@ -17,6 +17,10 @@
         @livewireStyles
     </head>
     <body class="antialiased">
+        @livewire('test-properties')
+        {{--  when want pass parameters  --}}
+        {{-- @livewire('test-properties', ['name' => 'Omar']) --}}
+        {{-- ============================================================== --}}
         {{-- Default Component and From Default Path --}}
         {{-- @livewire('show-post') --}}
         {{-- ============================================================== --}}
